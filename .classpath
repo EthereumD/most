@@ -2,16 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/orchid-1.1.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/guava-19.0.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/core-1.54.0.0.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/okhttp-1.2.1-jar-with-dependencies.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/scrypt-1.4.0.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/google-common.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/com.google.protobuf-2.4.0.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/slf4j.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/jcip-annotations.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/jsr305-1.3.9.jar"/>
-	<classpathentry kind="lib" path="/Users/davidfish/Desktop/科技部計畫研究/bitcoin j library/leveldbjni-all-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/davidfish/Desktop/bitcoinj-core-0.14.3-bundled.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
