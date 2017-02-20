@@ -10,3 +10,4 @@ android-app-bitcoin-wallet-master：為以bitcoinj 實現的比特幣手機錢�
 BitNFC-master：比特幣簡單的NFC應用實現
 bitcoin-master：比特幣官方主要的核心錢包
 bitcoin-app-jdbc：簡單java 和 SQL 連線
+bitcoinj-test：bitcoinj library 測試
