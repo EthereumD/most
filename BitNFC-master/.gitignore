@@ -1,0 +1,8 @@
+node_modules/
+www/lib/*
+platforms/
+plugins/
+engine/
+.DS_Store
+.sass-cache/
+BitNFC.keystore

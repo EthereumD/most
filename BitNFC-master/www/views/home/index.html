@@ -1,0 +1,20 @@
+<ion-view class="home-view" title="Bit<span class='royal'>NFC</span>">
+  <ion-content>
+    <div class="text-center">
+      <div class="separator10"></div>
+      <h3>Phone Wallet</h3>
+      <h4>Address</h4>
+      <img class="light-bg qr" ng-click="qrTap = !qrTap" ng-class="{'active': qrTap}" ng-src="http://api.qrserver.com/v1/create-qr-code/?data={{publicAddress.toString()}}&color=000000&bgcolor=FFFFFF&qzone=1&margin=0&size=400x400&ecc=L" width="35%"/>
+      <div><small class="dark">Tap to enlarge</small></div>
+      <div class="separator40"></div>
+      <div class="col col-80 col-offset-10">
+        <input type="text" readonly class="row text-center" ng-value="publicAddress.toString()" />
+      </div>
+      <div class="separator15"></div>
+      <balance-refresh
+        balance="{{balance}}"
+        ng-click="refreshBalance()">
+      </balance-refresh>
+    </div>
+  </ion-content>
+</ion-view>
