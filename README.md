@@ -7,8 +7,13 @@ The wallet file stores the private key for the Bitcoin address. Strictly speakin
 Although Bitcoin assets are stored in the block chain. But the storage of Bitcoin wallet is very important. Because of the need for Bitcoin transactions, need to use the bitcoin private key. Bitcoin private keys can authorize all asset transfers. 
 
 android-app-bitcoin-wallet-master：為以bitcoinj 實現的比特幣手機錢包
+
 BitNFC-master：比特幣簡單的NFC應用實現
+
 bitcoin-master：比特幣官方主要的核心錢包
+
 bitcoin-app-jdbc：簡單java 和 SQL 連線
+
 bitcoinj-test：bitcoinj library 測試
+
 crypto：一些以java實現的加密算法
