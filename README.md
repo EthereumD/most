@@ -9,7 +9,11 @@ Although Bitcoin assets are stored in the block chain. But the storage of Bitcoi
 android-app-bitcoin-wallet-master：為以bitcoinj 實現的比特幣手機錢包
 
 *__BitNFC-master__：比特幣簡單的NFC應用實現
+
 *__bitcoin-master__：比特幣官方主要的核心錢包
+
 *__bitcoin-app-jdbc__：簡單java 和 SQL 連線
+
 *__bitcoinj-test__：bitcoinj library 測試
+
 *__crypto__：一些以java實現的加密算法
