@@ -6,14 +6,14 @@ The wallet file stores the private key for the Bitcoin address. Strictly speakin
 
 Although Bitcoin assets are stored in the block chain. But the storage of Bitcoin wallet is very important. Because of the need for Bitcoin transactions, need to use the bitcoin private key. Bitcoin private keys can authorize all asset transfers. 
 
-這個項目是基於bitcoinj作為錢包安全增強和優化的基礎。
+本計畫是基於bitcoinj library 作為錢包製作的基礎 再作進一步的安全性的優化。
 
-比特幣系統可以大致分為錢包，區塊鏈，交易和比特幣網絡。
-錢包文件存儲比特幣地址的私鑰。 嚴格地說，比特幣資產不會存儲在電子錢包文件中。 比特幣資產存儲在塊鏈中。 所以當我們想檢查自己的平衡。 你不需要加載你自己的唯一的比特幣私鑰。 您只需要在塊鏈中搜索與您自己的比特幣地址相關的交易。 然後總計所有的交易記錄，以獲得您的“比特幣”地址的餘額。
+比特幣整體架構大致可分為地址，區塊鏈，交易和比特幣網絡。
+在bitcoin core 下 wallet.dat 存儲比特幣地址的私鑰。 嚴格地說，比特幣資產不會存儲在電子錢包文件中。 比特幣資產存儲在區塊鏈中。 所以當我們想檢查自己所擁有地址餘額。  您只需要在塊鏈中搜索與您自己的比特幣地址相關的交易。 然後總計所有的交易記錄，以獲得您的“比特幣”地址的餘額。
 
-比特幣私鑰可以授權所有資產轉移。 請使用bitcoin私鑰。 比特幣私鑰可以授權所有資產轉移。
+比特幣私鑰可以授權所有資產轉移。 
 
-此項目的內容包刮以下子項目:
+本計畫的內容包刮以下子項目:
 
  * __android-app-bitcoin-wallet-master__：
     為以bitcoinj 實現的比特幣手機錢包.
