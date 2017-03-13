@@ -3,13 +3,15 @@ package test;
 import java.sql.*;
 
 public class Login {
-	public static void main(String[] args){
+	public static void main(String[] args) throws SQLException{
 			
 //-----------------------------------------------------------
 //		新增使用者
 //			輸入：帳號 密碼
 //			輸出	：無
 //		in_user(name,passwd);
+String name="weeee" , passwd = "asdasdasd";
+in_user(name,passwd);
 //-----------------------------------------------------------		
 //		詢問使用者密碼
 //			輸入：使用者名稱
@@ -30,7 +32,7 @@ public class Login {
 
 	public static void in_user(String in_name,String in_passwd) throws SQLException {
 		
-		String url = "jdbc:mysql://120.125.85.30:3306/test?" + "user=user01&password=master3421&useUnicode=true&characterEncoding=UTF8";	
+		String url = "jdbc:mysql://127.0.0.1:3306/test?" + "user=user01&password=1111&useUnicode=true&characterEncoding=UTF8";	
 		String driver = "com.mysql.jdbc.Driver";
 		
 		try {
@@ -55,7 +57,7 @@ public class Login {
 		
 	}
 	public static String ask_pass(String in_name) throws SQLException {
-		String url = "jdbc:mysql://120.125.85.30:3306/test?" + "user=user01&password=master3421&useUnicode=true&characterEncoding=UTF8";	
+		String url = "jdbc:mysql://127.0.0.1:3306/test?" + "user=user01&password=1111&useUnicode=true&characterEncoding=UTF8";	
 		String driver = "com.mysql.jdbc.Driver";
 		String passwd = null;
 		try {
@@ -103,7 +105,7 @@ public class Login {
 	public static int pass_change(String in_name,String old_passwd,String new_passwd) throws SQLException{
 		int success = 0;
 		
-		String url = "jdbc:mysql://120.125.85.30:3306/test?" + "user=user01&password=master3421&useUnicode=true&characterEncoding=UTF8";	
+		String url = "jdbc:mysql://127.0.0.1:3306/test?" + "user=user01&password=1111&useUnicode=true&characterEncoding=UTF8";	
 		String driver = "com.mysql.jdbc.Driver";
 		
 		try {
