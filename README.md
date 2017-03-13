@@ -13,19 +13,18 @@ Although Bitcoin assets are stored in the block chain. But the storage of Bitcoi
 
 比特幣私鑰可以授權所有資產轉移。 
 
-本計畫的內容包刮以下子項目:
+#### 本計畫的內容包刮以下子項目:
 
- * __android-app-bitcoin-wallet-master__：
-    為以bitcoinj 實現的比特幣手機錢包.
- * __BitNFC-master__：
-    比特幣簡單的NFC應用實現
- * __bitcoin-master__：
-    比特幣官方主要的核心錢包
- * __bitcoin-app-jdbc__：
-    簡單java 和 SQL 連線
- * __bitcoinj-test__：
-    bitcoinj library 測試
- * __crypto__：
-    一些以java實現的加密算法
- * __BitBuy__：
-    由jambocoder159製作
+ * android-app-bitcoin-wallet-master ： 為以 bitcoinj 實現的比特幣手機錢包.
+
+ * BitNFC-master：比特幣簡單的NFC應用實現
+ 
+ * bitcoin-master：比特幣官方主要的核心錢包
+ 
+ * bitcoin-app-jdbc：簡單java 和 SQL 連線
+ 
+ * bitcoinj-test：bitcoinj library 測試
+ 
+ * crypto：一些以java實現的加密算法
+ 
+ * BitBuy：由jambocoder159製作
