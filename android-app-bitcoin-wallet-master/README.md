@@ -1,5 +1,3 @@
-比特幣原始錢包 包刮 app  原始檔案
-
 Welcome to _Bitcoin Wallet_, a standalone Bitcoin payment app for your Android device!
 
 This project contains several sub-projects:
