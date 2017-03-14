@@ -10,8 +10,8 @@ public class Login {
 //			輸入：帳號 密碼
 //			輸出	：無
 //		in_user(name,passwd);
-String name="weeee" , passwd = "asdasdasd";
-in_user(name,passwd);
+		//String name="weeee" , passwd = "asdasdasd";
+		//in_user(name,passwd);
 //-----------------------------------------------------------		
 //		詢問使用者密碼
 //			輸入：使用者名稱
