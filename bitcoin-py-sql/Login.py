@@ -1,18 +1,23 @@
-# coding=UTF-8
-
-HOST = "mcdf.asuscomm.com"
-USER = "user"
-PASS = "1234"
-DBNAME = "test"
-PORT = "3306"
+# -*- coding: UTF-8 -*-
 
 import MySQLdb
 
-try:
-    db = MySQLdb.connect(HOST, USER, PASS, DBNAME, charset='utf8')
-    cursor = db.cursor()
-    cursor.execute("insert into user values ('df','dfdf')")
-    db.close()
+# 打开数据库连接
+db = MySQLdb.connect("mcdf.asuscomm.com", "user", "1234", "test")
 
-except MySQLdb.Error as e:
-    print "Error %d: %s" % (e.args[0], e.args[1])
+# 使用cursor()方法获取操作游标
+cursor = db.cursor()
+
+# SQL 插入语句
+sql = """INSERT INTO user(name,passwd) VALUES ('ck','fuck')"""
+try:
+    # 执行sql语句
+    cursor.execute(sql)
+    # 提交到数据库执行
+    db.commit()
+except:
+    # Rollback in case there is any error
+    db.rollback()
+
+# 关闭数据库连接
+db.close()

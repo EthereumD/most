@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35cfbc2-bbbd-4e56-bc06-f9f6e0d746e5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitcoin-app-jdbc/bin/test/Login.class" afterPath="$PROJECT_DIR$/../bitcoin-app-jdbc/bin/test/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitcoin-app-jdbc/.classpath" afterPath="$PROJECT_DIR$/../bitcoin-app-jdbc/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitcoin-app-jdbc/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/../bitcoin-app-jdbc/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitcoin-app-jdbc/bin/.gitignore" afterPath="$PROJECT_DIR$/../bitcoin-app-jdbc/bin/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitcoin-app-jdbc/src/test/Login.java" afterPath="$PROJECT_DIR$/../bitcoin-app-jdbc/src/test/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitcoin-app-jdbc/src/test/Login_gui.java" afterPath="$PROJECT_DIR$/../bitcoin-app-jdbc/src/test/Login_gui.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bitcoin-py-sql.iml" afterPath="$PROJECT_DIR$/.idea/bitcoin-py-sql.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.py" afterPath="$PROJECT_DIR$/Login.py" />
     </list>
@@ -21,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bitcoin-py-sql$Login.coverage" NAME="Login Coverage Results" MODIFIED="1489505974535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bitcoin-py-sql$Login.coverage" NAME="Login Coverage Results" MODIFIED="1489569216927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,10 +35,11 @@
       <file leaf-file-name="Login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="703">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
-                <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+                <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+                <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
               </folding>
             </state>
           </provider>
@@ -406,11 +399,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12256944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980456" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17980456" sideWeight="0.5069444" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17980456" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17980456" sideWeight="0.49305555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -440,7 +433,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
@@ -450,7 +444,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
@@ -460,7 +455,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
@@ -470,7 +466,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
@@ -480,7 +477,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
@@ -490,17 +488,41 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489506083775" expanded="true" signature="235:272" ph="insert into user... " />
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <marker date="1489569216904" expanded="true" signature="181:210" ph="INSERT INTO user... " />
+            <marker date="1489569216904" expanded="true" signature="181:231" ph="INSERT INTO user... " />
           </folding>
         </state>
       </provider>
