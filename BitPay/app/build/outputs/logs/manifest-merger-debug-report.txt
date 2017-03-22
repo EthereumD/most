@@ -1,0 +1,94 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\jambo\.android\build-cache\59a24040bdf2474072e7316ed6bc2a6cf998d3d1\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\jambo\.android\build-cache\b87f5eaf8f52dc071e575c1ec1a1cc7bbfc6832f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\jambo\.android\build-cache\b67788c11148cc640d0ff35b7500f3fc90380acb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\jambo\.android\build-cache\88a5b405f405fb076afbcf1424e9a97b91c15386\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\jambo\.android\build-cache\4164cd08e79739159938be3e4327174298c24f71\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\jambo\.android\build-cache\d161172abf387f5c43d3e470919743490230cab3\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\jambo\.android\build-cache\b6315b18d494c3a2471cff5f864c9335a6c81e46\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\jambo\.android\build-cache\ca7a6ba0777b9d6006bba47d06451bec13791542\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\jambo\.android\build-cache\602e673511ae822ac5ee8522694fb58b7aa0b9b3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\jambo\.android\build-cache\2b7af62bb111619690ca2f00eccfa38a5cd62db6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\jambo\.android\build-cache\9acf08ac4474530cd28a3adea1a6bde450fe6ac4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\jambo\.android\build-cache\81db8f07eaf01fcd1b1d0f56a4b5b49821107de5\output\AndroidManifest.xml:25:5-20
+	android:screenOrientation
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:10:9-45
+	android:label
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:11:9-35
+	android:roundIcon
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.jambo.bitpay.LoadingPage
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:13:19-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.jambo.bitpay.Regiest
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:20:9-45
+	android:name
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:20:19-42
+activity#com.example.jambo.bitpay.MainActivity
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:21:9-23:59
+	android:label
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:22:13-41
+activity#com.example.jambo.bitpay.Loging
+ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:24:9-53
+	android:name
+		ADDED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml:24:19-41
+uses-sdk
+INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\jambo\.android\build-cache\59a24040bdf2474072e7316ed6bc2a6cf998d3d1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\jambo\.android\build-cache\b87f5eaf8f52dc071e575c1ec1a1cc7bbfc6832f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\jambo\.android\build-cache\b67788c11148cc640d0ff35b7500f3fc90380acb\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\jambo\.android\build-cache\88a5b405f405fb076afbcf1424e9a97b91c15386\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\jambo\.android\build-cache\4164cd08e79739159938be3e4327174298c24f71\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\jambo\.android\build-cache\f2aba5c92b78ca874b1f3920f631d0dc01b4d50d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\jambo\.android\build-cache\d161172abf387f5c43d3e470919743490230cab3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\jambo\.android\build-cache\b6315b18d494c3a2471cff5f864c9335a6c81e46\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\jambo\.android\build-cache\ca7a6ba0777b9d6006bba47d06451bec13791542\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\jambo\.android\build-cache\602e673511ae822ac5ee8522694fb58b7aa0b9b3\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\jambo\.android\build-cache\2b7af62bb111619690ca2f00eccfa38a5cd62db6\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\jambo\.android\build-cache\9acf08ac4474530cd28a3adea1a6bde450fe6ac4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\jambo\.android\build-cache\81db8f07eaf01fcd1b1d0f56a4b5b49821107de5\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\jambo\.android\build-cache\b87f5eaf8f52dc071e575c1ec1a1cc7bbfc6832f\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jambo\AndroidStudioProjects\BitPay\app\src\main\AndroidManifest.xml
