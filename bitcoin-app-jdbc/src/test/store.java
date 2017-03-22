@@ -6,31 +6,37 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class store {
-
-	public static void main(String[] args){
-		// 驱动程序名
+	
+	public static void main(String[] args) throws SQLException{
+		
+//-----------------------------------------------------------
+//				新增店家
+//					輸入：店號 , 店名 , 地址 , 比特幣地址
+//					輸出	：無
+//					in_store(store_number, store_name,store_address,store_btc_address)
+		int store_number=123;
+		String store_name = "first bank" , store_address= "Taipei",store_btc_address= "15tDRUTA2DAWjq1aXXtGeHsbPyRWxaCv71";
+		in_store(store_number, store_name,store_address,store_btc_address);
+//-----------------------------------------------------------		
+		
+		}
+	
+	
+	public static void in_store(int store_number, String store_name,String store_address,String store_btc_address) throws SQLException {
+		String url = "jdbc:mysql://mcdf.asuscomm.com:3306/most-sql?" + "user=user&password=1234&useUnicode=true&characterEncoding=UTF8";	
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://120.125.85.30:3306/test";
-		String user = "user01";
-		String password = "master3421";
-
+		
 		try {
-			
 			Class.forName(driver);
-
-			Connection conn = DriverManager.getConnection(url, user, password);
+			Connection conn = DriverManager.getConnection(url);
 			if(!conn.isClosed())
 				System.out.println("Succeeded connecting to the Database!");
 			Statement stmt = conn.createStatement();
-//-----------------------------------------------------------			
-			int store_num=33;
-			String store_name = "7-11",store_btc="1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX";
-						
-			String sql = in_store(store_num,store_name,store_btc);
-					
-			stmt.executeUpdate(sql);
-			conn.close(); }
-//-----------------------------------------------------------
+//-----------------------------------------------------------		
+		String sql = "insert into store(store_number, store_name,store_address,store_btc_address) values('"+store_number+"','"+store_name+"','"+store_address+"','"+store_btc_address+"' )";
+		stmt.executeUpdate(sql);
+//-----------------------------------------------------------		
+		conn.close(); }
 		catch(ClassNotFoundException e) {
 			System.out.println("Sorry,can`t find the Driver!");
 			e.printStackTrace();
@@ -39,11 +45,7 @@ public class store {
 		} catch(Exception e) {
 			e.printStackTrace();
 			}
-		}
-//新增店家
-	public static String in_store(int store_num,String store_name,String store_btc) {
-		String sql = "insert into store(store_num,store_name,store_btc) values('"+store_num+"','"+store_name+"','"+store_btc+"' )";
-		return sql;
 	}
+	
 
 }
