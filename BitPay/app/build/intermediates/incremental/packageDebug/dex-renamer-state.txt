@@ -1,0 +1,7 @@
+#Tue Mar 14 14:26:23 CST 2017
+base.0=C\:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c44814f0e07fc93e5a9d11a13bd62c9909cc5834
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_71e8b4c24dcbc5196a204aa993bd2b7e0c6c69ef\\classes.dex
+base.1=C\:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_71e8b4c24dcbc5196a204aa993bd2b7e0c6c69ef
+file.0=C\:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c44814f0e07fc93e5a9d11a13bd62c9909cc5834\\classes.dex

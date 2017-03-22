@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\btc.png",
+        "source": "C:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\src\\main\\res\\mipmap-xhdpi\\btc.png"
+    },
+    {
+        "merged": "C:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\jambo\\AndroidStudioProjects\\BitPay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

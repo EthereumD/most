@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\2b7af62bb111619690ca2f00eccfa38a5cd62db6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b0089f546000d571496edeffbd981e0cc53d4904\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\88a5b405f405fb076afbcf1424e9a97b91c15386\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad3cf71ad16aa6adef8571deb61fca95adf5743c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c44814f0e07fc93e5a9d11a13bd62c9909cc5834\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\d161172abf387f5c43d3e470919743490230cab3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a4956f51af512fb70a964ac19bdf994175ed4ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\59a24040bdf2474072e7316ed6bc2a6cf998d3d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7bb0b94ceb1dd8f70dfde75e0b1166429a878d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\602e673511ae822ac5ee8522694fb58b7aa0b9b3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ceac73aecc2d947c3474112c58526544896b44c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\9acf08ac4474530cd28a3adea1a6bde450fe6ac4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d98c4d9c00baf0d17c1c3488bc78a5a5e46b12e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\4164cd08e79739159938be3e4327174298c24f71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c341639e2488448834bbcb8d0949ae017ac0b8ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\81db8f07eaf01fcd1b1d0f56a4b5b49821107de5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9fe332e5ba651669427afb59c4b0387d446237bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\f2aba5c92b78ca874b1f3920f631d0dc01b4d50d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ff9810e1dbc25fc9377039b7044fedce36dbbef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\b6315b18d494c3a2471cff5f864c9335a6c81e46\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_833bba3be20ef8ebfeebacf9d8606552f21b5f07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\b87f5eaf8f52dc071e575c1ec1a1cc7bbfc6832f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dac04da39c9d9bf6643264cd3319a06ef73c6dbf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\b67788c11148cc640d0ff35b7500f3fc90380acb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9457ce6f50198de6b61364b803a1b8735a4ce5e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\.android\build-cache\ca7a6ba0777b9d6006bba47d06451bec13791542\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3823a09d8c79e1167c7232b47eabcbc34f6b014c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\AndroidSdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.1_0f8ef915724bc283d5b984cd0b22e18edea8cb65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="36e1339c98737e9f4c8c13b56863de0c92c14049">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_71e8b4c24dcbc5196a204aa993bd2b7e0c6c69ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\jambo\AndroidStudioProjects\BitPay\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_eb518d91561cc1bda012e4ca6ac1880b7543d99f\classes.dex" />
+    </item>
+
+</items>
