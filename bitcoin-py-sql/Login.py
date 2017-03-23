@@ -3,7 +3,7 @@
 import MySQLdb
 
 # 打开数据库连接
-db = MySQLdb.connect("mcdf.asuscomm.com", "user", "1234", "test")
+db = MySQLdb.connect("mcdf.asuscomm.com", "user", "1234", "most-sql")
 
 # 使用cursor()方法获取操作游标
 cursor = db.cursor()

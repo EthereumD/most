@@ -5,26 +5,23 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class store {
-	
-	public static void main(String[] args) throws SQLException{
+public class Store_product {
+
+	public static void main(String[] args) throws SQLException {
 		
 //-----------------------------------------------------------
-//				æ–°å¢åº—å®¶
-//					è¼¸å…¥ï¼šåº—è™Ÿ , åº—å , åœ°å€ , æ¯”ç‰¹å¹£åœ°å€
-//					è¼¸å‡º	ï¼šç„¡
-//					in_store(store_number, store_name,store_address,store_btc_address)
+//		·s¼W©±®a¾Ö¦³ªº²£«~
+//			¿é¤J¡G©±¸¹    ²£«~¸¹   ¼Æ¶q
+//			¿é¥X	¡GµL
+//		in_store_product(store_number,product_number,product_quantity);
+		
+		int store_number = 1 , product_number=2 ,product_quantity = 3;
+		in_store_product(store_number,product_number,product_quantity);
+//-----------------------------------------------------------	
 
-		int store_number=123;
-		String store_name = "first bank" , store_address= "Taipei",store_btc_address= "15tDRUTA2DAWjq1aXXtGeHsbPyRWxaCv71";
-		in_store(store_number, store_name,store_address,store_btc_address);
 		
-//-----------------------------------------------------------		
-		
-		}
-	
-	
-	public static void in_store(int store_number, String store_name,String store_address,String store_btc_address) throws SQLException {
+	}
+	public static void in_store_product(int store_number, int product_number,int product_quantity) throws SQLException {
 		String url = "jdbc:mysql://mcdf.asuscomm.com:3306/most-sql?" + "user=user&password=1234&useUnicode=true&characterEncoding=UTF8";	
 		String driver = "com.mysql.jdbc.Driver";
 		
@@ -35,7 +32,7 @@ public class store {
 				System.out.println("Succeeded connecting to the Database!");
 			Statement stmt = conn.createStatement();
 //-----------------------------------------------------------		
-		String sql = "insert into store(store_number, store_name,store_address,store_btc_address) values('"+store_number+"','"+store_name+"','"+store_address+"','"+store_btc_address+"' )";
+		String sql = "insert into store_product(store_number,product_number,product_quantity) values('"+store_number+"','"+product_number+"','"+product_quantity+"' )";
 		stmt.executeUpdate(sql);
 //-----------------------------------------------------------		
 		conn.close(); }
@@ -48,6 +45,4 @@ public class store {
 			e.printStackTrace();
 			}
 	}
-	
-
 }
