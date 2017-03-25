@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
 <!-- eric6 tasks file for project gui -->
-<!-- Saved: 2017-03-23, 20:44:13 -->
+<!-- Saved: 2017-03-23, 22:08:18 -->
 <Tasks version="6.0">
   <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{7f252e11-a008-4d01-91bf-a5e8be204af1}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2017-03-23, 22:08:15</Created>
+    <Resource>
+      <Filename>gui.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
 </Tasks>
