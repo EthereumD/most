@@ -18,6 +18,24 @@ Although Bitcoin assets are stored in the block chain. But the storage of Bitcoi
 
 比特幣私鑰可以授權所有資產轉移。
 
+# 規劃
+## 建立 ＳＱＬ
+* 使用者 SQL user(name, passwd)
+* 商家資訊 SQL store(store_number, store_name,store_address,store_btc_address)
+* 產品資訊 SQL product(product_number, product_name, product_detail)
+* 商家商品庫存 SQL store_product(store_number,product_number,product_quantity)
+
+## 撰寫 android 手機 客戶端 與  商家端
+* 建立 NFC 手機 （ 客戶端 ） 與 手機 （ 商家端 ）之間的 資料傳輸
+* 建立 商家端 UI
+** 撈取 使用者 SQL user 登入
+** 撈取 商家資訊 SQL store 顯示
+** 撈取 產品資訊 SQL product 和 商家商品庫存 SQL store_product 建立 詳細庫存清單
+** 
+
+* 建立 客戶端 UI
+
+
 ### 本計畫的內容包刮以下子項目:
 
  * android-app-bitcoin-wallet-master ： 為以 bitcoinj 實現的比特幣手機錢包.
