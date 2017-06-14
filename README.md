@@ -51,8 +51,12 @@ Although Bitcoin assets are stored in the block chain. But the storage of Bitcoi
 
  * bitcoin-app-jdbc：簡單 java 和 SQL 連線
 
+ * bitcoin-py-sql：簡單 python 和 SQL 連線
+
  * bitcoinj-test：bitcoinj library 測試
 
  * crypto：一些以 java 實現的加密算法
 
- * BitBuy：由 jambocoder159 製作
+ * BitBuy：由 jambocoder159 製作 android 端 APP
+
+ * BPCS-GUI-main：為Blockchain-based Payment Collection Supervision system 主要程序
