@@ -50,6 +50,7 @@ import org.bitcoinj.wallet.Wallet.DustySendRequested;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.crypto.params.KeyParameter;
+import org.w3c.dom.Text;
 
 import com.google.common.base.Strings;
 import com.netki.WalletNameResolver;
@@ -92,6 +93,7 @@ import de.schildbach.wallet.util.WalletUtils;
 import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.LoaderManager;
@@ -139,6 +141,7 @@ import android.widget.CursorAdapter;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * @author Andreas Schildbach
@@ -161,6 +164,7 @@ public final class SendCoinsFragment extends Fragment {
     private View payeeGroup;
     private TextView payeeNameView;
     private TextView payeeVerifiedByView;
+    private TextView txvtest;
     private AutoCompleteTextView receivingAddressView;
     private ReceivingAddressViewAdapter receivingAddressViewAdapter;
     private ReceivingAddressLoaderCallbacks receivingAddressLoaderCallbacks;
@@ -181,6 +185,7 @@ public final class SendCoinsFragment extends Fragment {
     private View privateKeyBadPasswordView;
     private Button viewGo;
     private Button viewCancel;
+    private Button sendcoin;
 
     @Nullable
     private State state = null;
@@ -210,6 +215,7 @@ public final class SendCoinsFragment extends Fragment {
     private static final int REQUEST_CODE_ENABLE_BLUETOOTH_FOR_DIRECT_PAYMENT = 2;
 
     private static final Logger log = LoggerFactory.getLogger(SendCoinsFragment.class);
+
 
     private enum State {
         REQUEST_PAYMENT_REQUEST, //
@@ -634,6 +640,7 @@ public final class SendCoinsFragment extends Fragment {
 
         payeeNameView = (TextView) view.findViewById(R.id.send_coins_payee_name);
         payeeVerifiedByView = (TextView) view.findViewById(R.id.send_coins_payee_verified_by);
+        txvtest = (TextView)view.findViewById(R.id.txvtest);
 
         receivingAddressView = (AutoCompleteTextView) view.findViewById(R.id.send_coins_receiving_address);
         receivingAddressViewAdapter = new ReceivingAddressViewAdapter(activity);
@@ -648,6 +655,10 @@ public final class SendCoinsFragment extends Fragment {
         receivingStaticLabelView = (TextView) view.findViewById(R.id.send_coins_receiving_static_label);
 
         amountGroup = view.findViewById(R.id.send_coins_amount_group);
+
+        //TextView txvtest = (TextView)view.findViewById(R.id.txvtest);
+        //Address str = paymentIntent.getAddress();
+
 
         final CurrencyAmountView btcAmountView = (CurrencyAmountView) view.findViewById(R.id.send_coins_amount_btc);
         btcAmountView.setCurrencySymbol(config.getFormat().code());
@@ -693,6 +704,8 @@ public final class SendCoinsFragment extends Fragment {
         viewGo.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(final View v) {
+
+
                 validateReceivingAddress();
 
                 if (everythingPlausible())
@@ -701,6 +714,8 @@ public final class SendCoinsFragment extends Fragment {
                     requestFocusFirst();
 
                 updateView();
+
+                sendcoin.setVisibility(View.VISIBLE);
             }
         });
 
@@ -1221,8 +1236,7 @@ public final class SendCoinsFragment extends Fragment {
             if (paymentIntent.hasPayee()) {
                 payeeNameView.setVisibility(View.VISIBLE);
                 payeeNameView.setText(paymentIntent.payeeName);
-
-                payeeVerifiedByView.setVisibility(View.VISIBLE);
+                payeeVerifiedByView.setVisibility(View.GONE);
                 final String verifiedBy = paymentIntent.payeeVerifiedBy != null ? paymentIntent.payeeVerifiedBy
                         : getString(R.string.send_coins_fragment_payee_verified_by_unknown);
                 payeeVerifiedByView.setText(Constants.CHAR_CHECKMARK
@@ -1605,7 +1619,11 @@ public final class SendCoinsFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         try {
             final EditText editText = (EditText) getView().findViewById(R.id.send_coins_amount_btc_edittext);
-            Button sendcoin = (Button)getView().findViewById(R.id.button2);
+            sendcoin = (Button)getView().findViewById(R.id.button2);
+            if(receivingStaticAddressView.equals(null)){
+                sendcoin.setVisibility(View.GONE);
+            }
+
             sendcoin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -1614,8 +1632,11 @@ public final class SendCoinsFragment extends Fragment {
 
                     Bundle bundle = new Bundle();
                     bundle.putDouble("amount", Double.parseDouble(amount));
-
                     bundle.putInt("Msg",msg);
+                    bundle.putString("customer", config.getOwnName());
+                    bundle.putString("username", config.getOwnName());
+                    bundle.putString("GetPeople", paymentIntent.memo);
+                    bundle.putString("ReceivingAddress", String.valueOf(WalletUtils.formatAddress(paymentIntent.getAddress(),40, 80)));
                     ComponentName componetName = new ComponentName("com.example.jambo.bitpay_12",
                             "com.example.jambo.bitpay_12.Transaction");
                     Intent intentSend = new Intent();
@@ -1623,7 +1644,16 @@ public final class SendCoinsFragment extends Fragment {
                     intentSend.setComponent(componetName);
                     intentSend.putExtras(bundle);
                     startActivity(intentSend);
+
+                    //收款人姓名
+                    log.info("購買人 : "+config.getOwnName()+"\n 銷售員 " + paymentIntent.memo);
+                    //收款地址
+
+                    txvtest.setText(String.valueOf(WalletUtils.formatAddress(paymentIntent.getAddress(),40, 80)));
+
                 }});
         }catch(Exception e){}
     }
+
+
 }

@@ -114,7 +114,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
 
     private Address address;
     private CurrencyCalculatorLink amountCalculatorLink;
-    public static String readdress;
+    public static String readdress,username;
     private static final int ID_RATE_LOADER = 0;
 
     private static final Logger log = LoggerFactory.getLogger(RequestCoinsFragment.class);
@@ -416,7 +416,6 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
     private String determineBitcoinRequestStr(final boolean includeBluetoothMac) {
         final Coin amount = amountCalculatorLink.getAmount();
         final String ownName = config.getOwnName();
-
         final StringBuilder uri = new StringBuilder(BitcoinURI.convertToBitcoinURI(address, amount, ownName, null));
         if (includeBluetoothMac && bluetoothMac != null) {
             uri.append(amount == null && ownName == null ? '?' : '&');
@@ -428,8 +427,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
     private byte[] determinePaymentRequest(final boolean includeBluetoothMac) {
         final Coin amount = amountCalculatorLink.getAmount();
         final String paymentUrl = includeBluetoothMac && bluetoothMac != null ? "bt:" + bluetoothMac : null;
-
-        return PaymentProtocol.createPaymentRequest(Constants.NETWORK_PARAMETERS, amount, address, config.getOwnName(),
+        return PaymentProtocol.createPaymentRequest(Constants.NETWORK_PARAMETERS, amount, address, username,
                 paymentUrl, null).build().toByteArray();
     }
 
@@ -450,7 +448,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
             TextView txv = (TextView)getView().findViewById(R.id.textView);
             Button btn = (Button)getView().findViewById(R.id.button);
             final double amount = getActivity().getIntent().getExtras().getDouble("amount");
-            final String username = getActivity().getIntent().getExtras().getString("username");
+            username = getActivity().getIntent().getExtras().getString("username");
             final String Nowtime = getActivity().getIntent().getExtras().getString("NowTime");
             editText.setText(Double.toString(amount));
             txv.setText("Hi : " + username + "\nYou will use this address : \n" + readdress+"\nat "+Nowtime);
@@ -470,6 +468,7 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.setComponent(componetName);
                 intent.putExtras(bundle);
+
 
                 startActivity(intent);
             }});

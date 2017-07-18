@@ -4,7 +4,8 @@
     android:divider="?android:attr/dividerHorizontal"
     android:dividerPadding="0dp"
     android:orientation="vertical"
-    android:showDividers="middle" >
+    android:showDividers="middle"  android:layout_height="match_parent"
+     android:layout_width="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"

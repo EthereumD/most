@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:elevation="1dp"
-        android:text="Button"
+        android:text="返回並建立交易清單"
         android:visibility="visible" />
 
 </LinearLayout>
