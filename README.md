@@ -19,10 +19,7 @@
 * 建立 UI 介面  接 上按鈕 編輯數量  生成ＮＦＣ資訊 包括 （比特幣地址、商品號、數量）
 
 ### 建立 客戶端 UI
-* 建立 UI 介面  啟動 NFC
-*
-
-      
+* 建立 UI 介面  啟動 NFC     
 
 # most
 This project is based on bitcoinj as the basis for wallet security enhancements and optimization.
