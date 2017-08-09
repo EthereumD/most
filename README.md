@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/PW-Chen/most/master/image/Bitcoin_Logo.png?token=AVzoQns6go-OTbnwDE95x-tGhanEvABAks5Y33SVwA%3D%3D" width="10%" height="10%">     
 
 # 規劃
-## 建立 ＳＱＬ
+## 建立 ＳＱＬ//test
 * 使用者 SQL user(name, passwd)
 * 商家資訊 SQL store(store_number, store_name,store_address,store_btc_address)
 * 產品資訊 SQL product(product_number, product_name, product_detail)
