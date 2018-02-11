@@ -1,6 +1,3 @@
-[![owner1](https://img.shields.io/badge/Powered%20by-PW--Chen-blue.svg?style=flat)](https://github.com/PW-Chen)
-[![owner2](https://img.shields.io/badge/Powered%20by-jambocoder159-blue.svg?style=flat)](https://github.com/jambocoder159)
-
 <img src="https://raw.githubusercontent.com/PW-Chen/most/master/image/Bitcoin_Logo.png?token=AVzoQns6go-OTbnwDE95x-tGhanEvABAks5Y33SVwA%3D%3D" width="10%" height="10%">     
 
 # 規劃
